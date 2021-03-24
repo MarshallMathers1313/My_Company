@@ -1,0 +1,92 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT TECHNOLOGY"
+            android:layout_gravity="center"
+            android:textSize="36sp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+        </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="3"
+        android:src="@drawable/logo">
+
+    </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:layout_weight="0.5"
+            android:paddingRight="10dp"
+            android:textColor="@color/purple_200"
+            android:textStyle="italic">
+        </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number:\t +79224845242\nE-mail:      ITTechn@gmail.com\nWebsite:   www.ItTech.com"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:paddingRight="10dp"
+        android:textColor="@color/teal_700">
+    </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About us"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.5"
+            android:textColor="@color/purple_200"
+            android:textStyle="italic">
+        </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We help people in the World!"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:paddingRight="10dp"
+        android:textColor="@color/teal_700">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Work days"
+        android:textSize="30sp"
+        android:layout_weight="0.5"
+        android:textColor="@color/purple_200"
+        android:textStyle="italic">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MN-FR: 10:00 - 19:00"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:paddingRight="10dp"
+        android:textColor="@color/teal_700">
+    </TextView>
+
+</LinearLayout>
